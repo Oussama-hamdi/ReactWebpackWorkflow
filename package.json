@@ -1,0 +1,25 @@
+{
+  "name": "ReactWebpackWorkflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Oussama-hamdi/ReactWebpackWorkflow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oussama-hamdi/ReactWebpackWorkflow/issues"
+  },
+  "homepage": "https://github.com/Oussama-hamdi/ReactWebpackWorkflow#readme",
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}

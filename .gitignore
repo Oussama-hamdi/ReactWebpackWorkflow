@@ -1,0 +1,16 @@
+# Node modules
+node_modules/
+
+# Distribution files
+dist/
+
+
+# Cache files
+.cache/
+build/
+
+# Editor directories and files
+.vscode/
+
+# Mac specific files
+.DS_Store

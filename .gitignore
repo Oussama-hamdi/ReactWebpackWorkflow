@@ -3,11 +3,11 @@ node_modules/
 
 # Distribution files
 dist/
+build/
 
 
 # Cache files
 .cache/
-build/
 
 # Editor directories and files
 .vscode/

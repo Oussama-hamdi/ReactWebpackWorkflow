@@ -23,7 +23,25 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/,
+        use: {
+          loader: "url-loader",
+          options: {
+            limit: 8000,
+            name: "[name].[ext]",
+            outputPath: "images/",
+          },
+        },
+      },
     ],
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
   },
   devServer: {
     open: true,
